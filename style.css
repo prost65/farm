@@ -1,0 +1,102 @@
+:root {
+  --color1: rgb(29, 75, 50);
+  --color2: rgb(13, 70, 13);
+  --color3: rgb(39, 39, 39);
+  --color4: rgb(197, 195, 195);
+  --color5: rgb(192, 149, 10);
+}
+
+.color1 {
+  color: var(--color1);
+  background-color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+  border-color: var(--color2);
+}
+
+.color3 {
+  color: var(--color3);
+  background-color: var(--color3);
+}
+
+.color4 {
+  color: var(--color4);
+}
+
+/* Шапка */
+header a {
+  color: var(--bs-white);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+  color: green;
+}
+
+/* Домашняя страница */
+/* Поиск */
+.homepagesearch {
+  background-image: url(/img/HomepageImage.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 300px 0;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:hover {
+  border-color: var(--bs-green);
+  box-shadow: 2px 0px 3px 4px var(--color2);
+}
+
+/* Найти оборудование */
+.homepagefind {
+  margin-top: -4%;
+}
+
+.homepagecategories {
+  background-image: url(/img/bg_find\ 1.png);
+  background-position: left;
+  background-size: cover;
+  width: 100%;
+  padding: 70px 0;
+}
+
+/* Категории */
+.cardwrapper {
+  background-color: var(--color4);
+  max-width: 350px;
+}
+
+/* Об аренде */
+.homepageaboutrental {
+  background-image: url(/img/Rectangle\ 9.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 70px 0;
+}
+
+.line1 {
+  max-width: 500px;
+  height: 3px;
+  background-color: var(--color5);
+  margin: 15px auto;
+}
+
+.line2 {
+  max-width: 400px;
+  height: 3px;
+  background-color: var(--color5);
+  margin: 15px auto;
+}
+
+.line3 {
+  max-width: 200px;
+  height: 3px;
+  background-color: var(--color5);
+  margin: 15px auto;
+}
