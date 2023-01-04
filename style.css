@@ -100,3 +100,7 @@ header a {
   background-color: var(--color5);
   margin: 15px auto;
 }
+
+.borderline h4 {
+  border-right: 2px white solid;
+}
