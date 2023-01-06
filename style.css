@@ -4,6 +4,7 @@
   --color3: rgb(39, 39, 39);
   --color4: rgb(197, 195, 195);
   --color5: rgb(192, 149, 10);
+  --color6: rgb(238, 126, 20);
 }
 
 .color1 {
@@ -24,6 +25,7 @@
 .color4 {
   color: var(--color4);
 }
+
 
 /* Шапка */
 header a {
@@ -57,6 +59,7 @@ header a {
   margin-top: -4%;
 }
 
+/* Категории */
 .homepagecategories {
   background-image: url(/img/bg_find\ 1.png);
   background-position: left;
@@ -65,7 +68,6 @@ header a {
   padding: 70px 0;
 }
 
-/* Категории */
 .cardwrapper {
   background-color: var(--color4);
   max-width: 350px;
@@ -103,4 +105,31 @@ header a {
 
 .borderline h4 {
   border-right: 2px white solid;
+}
+
+/* Узнать больше */
+.homepagelearnmore {
+  background-image: url(/img/About\ us\ container.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 70px 0;
+}
+
+.homepagelearnmore .row {
+  background-image: url(img/Rectangle\ 13.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Кнопка */
+.my-btn {
+  background-color: var(--color6);
+}
+
+.my-btn:focus,
+.my-btn:hover,
+.my-btn:active {
+  box-shadow: 0px 0px 3px 4px #FFBE82;
+  background-color: rgb(190, 116, 18);
 }
