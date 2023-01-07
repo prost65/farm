@@ -15,9 +15,16 @@
   background-color: var(--color1);
 }
 
+.bg2 {
+  border-color: var(--color2);
+}
+
+.bg3 {
+  background-color: var(--color3);
+}
+
 .color2 {
   color: var(--color2);
-  border-color: var(--color2);
 }
 
 .color3 {
@@ -85,28 +92,28 @@ header a {
   padding: 70px 0;
 }
 
-.line1 {
+.homepageaboutrental .line1 {
   max-width: 500px;
   height: 3px;
   background-color: var(--color5);
   margin: 15px auto;
 }
 
-.line2 {
+.homepageaboutrental .line2 {
   max-width: 400px;
   height: 3px;
   background-color: var(--color5);
   margin: 15px auto;
 }
 
-.line3 {
+.homepageaboutrental .line3 {
   max-width: 200px;
   height: 3px;
   background-color: var(--color5);
   margin: 15px auto;
 }
 
-.borderline h4 {
+.homepageaboutrental .borderline h4 {
   border-right: 2px white solid;
 }
 
@@ -135,4 +142,38 @@ header a {
 .my-btn:active {
   box-shadow: 0px 0px 3px 4px #FFBE82;
   background-color: rgb(190, 116, 18);
+}
+
+/* Подвал */
+.contactus .borderline {
+  border-left: 1px black solid;
+}
+
+.footer .borderline {
+  border-right: 1px white solid;
+}
+
+.footer .row {
+  border-bottom: 1px white solid;
+}
+
+.footer .form-control {
+  background-color: var(--color3);
+  border-radius: 0;
+}
+
+.footer input::placeholder {
+  color: var(--bs-white);
+  text-align: center;
+}
+
+.greenbnt {
+  background-color: var(--color2);
+  border-radius: 0;
+}
+
+.greenbnt:active,
+.greenbnt:hover,
+.greenbnt:focus {
+  background-color: rgb(61, 179, 61);
 }
