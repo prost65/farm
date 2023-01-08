@@ -71,7 +71,7 @@ header a {
 
 /* Категории */
 .homepagecategories {
-  background-image: url("/img/bg_find\ 1.png");
+  background-image: url(img/bg_find.png);
   background-position: left;
   background-size: cover;
   width: 100%;
@@ -85,7 +85,7 @@ header a {
 
 /* Об аренде */
 .homepageaboutrental {
-  background-image: url("/img/Rectangle\ 9.png");
+  background-image: url(img/Rectangle9.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -119,7 +119,7 @@ header a {
 
 /* Узнать больше */
 .homepagelearnmore {
-  background-image: url("img/About\ us\ container.png");
+  background-image: url(img/About_us_container.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -127,7 +127,7 @@ header a {
 }
 
 .homepagelearnmore .row {
-  background-image: url("img/Rectangle\ 13.png");
+  background-image: url(img/Rectangle13.png);
   background-position: center;
   background-size: cover;
 }
