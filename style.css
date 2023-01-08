@@ -145,21 +145,24 @@ header a {
 }
 
 /* Подвал */
+/* Зеленый блок */
 .contactus .borderline {
   border-left: 1px black solid;
 }
 
+/* Чёрный блок */
 .footer .borderline {
   border-right: 1px white solid;
 }
 
-.footer .row {
+.footer .row1 {
   border-bottom: 1px white solid;
 }
 
 .footer .form-control {
   background-color: var(--color3);
   border-radius: 0;
+  color: var(--bs-white);
 }
 
 .footer input::placeholder {
@@ -176,4 +179,30 @@ header a {
 .greenbnt:hover,
 .greenbnt:focus {
   background-color: rgb(61, 179, 61);
+}
+
+.footer .row .line1 {
+  max-width: 120px;
+  height: 2px;
+  background-color: var(--color5);
+  margin: 10px auto;
+}
+
+.footer .row .line2 {
+  max-width: 80px;
+  height: 2px;
+  background-color: var(--color5);
+  margin: 10px auto;
+}
+
+.footer .row .line3 {
+  max-width: 30px;
+  height: 2px;
+  background-color: var(--color5);
+  margin: 10px auto;
+}
+
+.footer li a {
+  color: var(--bs-white);
+  text-decoration: none;
 }
