@@ -5,10 +5,8 @@
   --color4: rgb(197, 195, 195);
   --color5: rgb(192, 149, 10);
   --color6: rgb(238, 126, 20);
-}
-
-.color1 {
-  color: var(--color1);
+  --color7: #F6F6F6;
+  --color8: #1E87F0;
 }
 
 .bg1 {
@@ -21,6 +19,14 @@
 
 .bg3 {
   background-color: var(--color3);
+}
+
+.bg4 {
+  background-color: var(--color7);
+}
+
+.color1 {
+  color: var(--color1);
 }
 
 .color2 {
@@ -36,6 +42,9 @@
   color: var(--color4);
 }
 
+.color8 {
+  color: var(--color8);
+}
 
 /* Шапка */
 header a {
@@ -229,4 +238,9 @@ header a {
 .green-btn2:focus,
 .green-btn2:hover {
   background-color: rgb(61, 179, 61);
+}
+
+/* Черная кнопка резервации */
+.equipmentlistcategory .btn-dark {
+  border-radius: 0;
 }
