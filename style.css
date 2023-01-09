@@ -132,14 +132,14 @@ header a {
   background-size: cover;
 }
 
-/* Кнопка */
-.my-btn {
+/* Кнопка узнать больше*/
+.orange-btn {
   background-color: var(--color6);
 }
 
-.my-btn:focus,
-.my-btn:hover,
-.my-btn:active {
+.orange-btn:focus,
+.orange-btn:hover,
+.orange-btn:active {
   box-shadow: 0px 0px 3px 4px #FFBE82;
   background-color: rgb(190, 116, 18);
 }
@@ -170,14 +170,15 @@ header a {
   text-align: center;
 }
 
-.greenbnt {
+/* Зеленая копка подписаться */
+.green-btn {
   background-color: var(--color2);
   border-radius: 0;
 }
 
-.greenbnt:active,
-.greenbnt:hover,
-.greenbnt:focus {
+.green-btn:active,
+.green-btn:hover,
+.green-btn:focus {
   background-color: rgb(61, 179, 61);
 }
 
@@ -205,4 +206,27 @@ header a {
 .footer li a {
   color: var(--bs-white);
   text-decoration: none;
+}
+
+/* Конец домашней страницы */
+/* Лист товаров */
+/* Шапка */
+.equipmentlistheader {
+  background-image: url(img/Rectangle17.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 180px 0;
+}
+
+/* Копка-листик */
+.green-btn2 {
+  background-color: var(--color2);
+  border-radius: 35px 0px 35px 0px;
+}
+
+.green-btn2:active,
+.green-btn2:focus,
+.green-btn2:hover {
+  background-color: rgb(61, 179, 61);
 }
