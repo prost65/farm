@@ -244,3 +244,12 @@ header a {
 .equipmentlistcategory .btn-dark {
   border-radius: 0;
 }
+
+/* О нас */
+.aboutusheader {
+  background-image: url(img/Rectangle18.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 180px 0;
+}
