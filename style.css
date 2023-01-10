@@ -253,3 +253,12 @@ header a {
   width: 100%;
   padding: 180px 0;
 }
+
+/* Контакты */
+.contact_usheader {
+  background-image: url(img/Rectangle19.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 180px 0;
+}
