@@ -262,3 +262,10 @@ header a {
   width: 100%;
   padding: 180px 0;
 }
+
+.contact_usform .line1 {
+  max-width: 150px;
+  height: 1px;
+  background-color: var(--bs-white);
+  margin: 10px auto;
+}
