@@ -1,12 +1,12 @@
 :root {
-  --color1: rgb(29, 75, 50);
+  --color1: rgb(49, 87, 58);
   --color2: rgb(13, 70, 13);
   --color3: rgb(39, 39, 39);
   --color4: rgb(197, 195, 195);
   --color5: rgb(192, 149, 10);
   --color6: rgb(238, 126, 20);
-  --color7: #F6F6F6;
-  --color8: #1E87F0;
+  --color7: rgb(246, 246, 246);
+  --color8: rgb(30, 135, 240);
 }
 
 .bg1 {
