@@ -69,8 +69,8 @@ header a {
 .form-control:active,
 .form-control:focus,
 .form-control:hover {
-  border-color: var(--bs-green);
-  box-shadow: 2px 0px 3px 4px var(--color2);
+  border-color: var(--color1);
+  box-shadow: 2px 0px 3px 4px rgba(66, 172, 97, 0.589);
 }
 
 /* Найти оборудование */
@@ -264,8 +264,35 @@ header a {
 }
 
 .contact_usform .line1 {
-  max-width: 150px;
+  max-width: 180px;
   height: 1px;
   background-color: var(--bs-white);
   margin: 10px auto;
+}
+
+.contact_usform .line2 {
+  max-width: 180px;
+  height: 2px;
+  background-color: var(--color4);
+  margin: 10px;
+}
+
+.contact_usform input,
+.contact_usform textarea {
+  border: var(--color4) 2px solid;
+}
+
+.contact_usform input::placeholder,
+.contact_usform textarea::placeholder {
+  font-weight: bold;
+}
+
+.contact_usform .green-btn3 {
+  background-color: var(--color1);
+}
+
+.contact_usform .green-btn3:active,
+.contact_usform .green-btn3:hover,
+.contact_usform .green-btn3:focus {
+  background-color: var(--color2);
 }
